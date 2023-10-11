@@ -90,7 +90,6 @@ return array(
     "smtp_username"             => "Nom d'utilisateur SMTP",
     "smtp_password"             => "Mot de passe SMTP",
     "ssl"                       => "SSL",
-    "tls"                       => "TLS",
     "email_content"             => "Contenu du courriel",
     "email_content_desc"        => "Entrez un sujet par défaut et le contenu des courriels pour ce modèle, vous pouvez aussi écrire le modèle dans d'autres langues. Si un modèle ne soit pas dans une autre langue, il utilisera les données par défaut.",
     "outgoing"                  => "Sortant",
@@ -618,5 +617,31 @@ return array(
     "shortcut_expand_all"       => "Étendre tous les messages",
     "shortcut_collapse_all"     => "Replier tous les messages",
     "shortcut_print_ticket"     => "Imprimer le détail du billet et des messages",
+
+    /*
+     * 4.3.0
+     */
+    "db_connection_error"       => "Database connection error, please check :path",
+
+    /*
+     * 5.0.0
+     */
+    "favicon_dark_mode"         => "Dark Mode Favicon",
+    "favicon_dark_mode_desc"    => "If your favicon was designed to only work on a light background, set a different favicon for dark mode. This will only be used if your browser and/or operating system is running in dark mode.",
+    "template_mode_system_desc" => "Choosing system will synchronise the template mode to light or dark mode depending on your operating system theme settings.",
+
+    /*
+     * 5.0.1
+     */
+    "starttls_or_none"          => "STARTTLS / None",
+
+    /*
+     * 5.1.0
+     */
+    "email_attempt_at_desc"     => "The email failed to send. Retrying again :time.", // :time example, "in 5 mins"
+    "websockets_connection"     => "Web Sockets Connection",
+    "websockets_not_running"    => "Unable to connect to web socket server.",
+    "search_driver_check"       => "Search Driver",
+    "search_driver_not_working" => "The configured search driver is not working correctly.",
 
 );
